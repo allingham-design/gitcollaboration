@@ -1,2 +1,11 @@
+Task 1
 Both merges above are fast-forward merges. Explain. 
 Answer: In fast-forward merges, we don't need to merge at each commit, we just merge into the main branch once we've finished creating changes. 
+
+Task 2
+Part C: Write down a scenario that will involve a merge conflict between develop and conflict_branch. 
+Answer: A scenario that will involve a merge conflict is if you change the title of the document in index.html under the develop branch and then change the title of the document in index.html to something different under the conflict branch. When you try to merge the conflict branch into the develop branch, this will create a conflict.
+
+Task 2
+Part C: Write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches
+Answer: A scenario that will NOT involve a merge conflict between develop and conflict_branch would be creating 2 different files under the 2 different branches and then merging conflict_branch into develop branch. When you try to merge the conflict branch into the develop branch, this wouldn't create a conflict.
