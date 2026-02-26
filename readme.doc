@@ -9,3 +9,5 @@ Answer: A scenario that will involve a merge conflict is if you change the title
 Task 2
 Part C: Write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches
 Answer: A scenario that will NOT involve a merge conflict between develop and conflict_branch would be creating 2 different files under the 2 different branches and then merging conflict_branch into develop branch. When you try to merge the conflict branch into the develop branch, this wouldn't create a conflict.
+
+
