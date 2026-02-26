@@ -1,0 +1,2 @@
+Both merges above are fast-forward merges. Explain. 
+Answer: In fast-forward merges, we don't need to merge at each commit, we just merge into the main branch once we've finished creating changes. 
